@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+
+.app-header {
+  /* background-color: orangered; */
+  width: 100%;
+  padding: 1rem;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100px;
+}
+
+.head input {
+  height: 40px;
+  min-width: 200px;
+  padding: 5px;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 7px;
+  outline: none;
+}
+
+.head button {
+  display: block;
+  font-weight: 600;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: rgb(41, 245, 0);
+  border: 1px solid rgba(22, 131, 0, 0.2);
+  border-bottom: 5px solid rgba(22, 131, 0, 0.6);
+}
+
+.head button:active {
+  border-bottom: none;
+}
+
+
+
+
+
+/* STUDNETS LIST */
+
+.empty-students-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+}
+
+.students-list {
+  padding: 1rem;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+}
+
+/* STUDENT CARD */
+
+.student-card {
+  display: flex;
+  min-width: 500px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 7px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0px 2px 4px 1px rgba(0,0,0,.2);
+}
+
+.student-card .info {
+  text-align: left;
+}
+
+.student-card .controls {}
+
+.student-card .controls button {
+  display: block;
+  font-weight: 600;
+  padding: 5px;
+  margin: 5px;
+  width: 50px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.student-card .controls .edit {
+  background-color: rgba(255, 166, 0);
+  border: 1px solid rgba(130, 84, 0, .2);
+  border-bottom: 5px solid rgba(130, 84, 0, .6);
+}
+
+.student-card .controls .delete {
+  background-color: rgba(255, 0, 0);
+  border: 1px solid rgb(128, 0, 0, .2);
+  border-bottom: 5px solid rgb(126, 0, 0, .6);
+}
+
+.student-card .controls button:active {
+  border-bottom: none;
+}
